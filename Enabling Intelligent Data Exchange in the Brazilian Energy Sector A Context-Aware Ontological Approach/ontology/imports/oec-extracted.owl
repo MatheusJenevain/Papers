@@ -1,0 +1,595 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/matheus/ontologies/2023/10/oec-extracted"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/matheus/ontologies/2023/10/oec-extracted">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>a</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#Neutral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#Receiver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#Sender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#byContext"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#companyOwned"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#context"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#distributedEnergyResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#energySector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataLog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#individual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#industrySector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#meaning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#powerPlant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#privatelyOwned"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#sector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termContent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#userAtentionFocus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#actorHasRole"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#actorHasType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorHasContext"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorHasOrganization"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorHasSector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#contextDefinedByActorRole"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#contextDefinedByActorType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#contextDefinedBySector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#contextUserAttentionFocus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasContext"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasLog"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasReceiver"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasSender"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasTerm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasLanguage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasMeaningByContext"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasMeaningByLiteralDefinition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasWrittenContent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#termContentString"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ContextUserAttentionFocusDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sender1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ActorDERHousehold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ActorEnergyCompany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ActorTypeCompany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ActorTypeDER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ContextDERHousehold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ContextEnergyCompany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedDataHouseholdToCompany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedTermGridConnection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedTermNetMetering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedTermStorage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#Storage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#TermNetGridConnectionDERHousehold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#TermNetMeteringDERHousehold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#TermStorageMeaningDERHousehold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#TermStorageMeaningEnergyCompany"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#Neutral"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#Receiver"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#Sender"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorRole"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorType"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#byContext"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#meaning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#company"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#companyOwned"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#distributedEnergyResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#distributedEnergyResource"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#energySector"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#sector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataLog"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#individual"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#industrySector"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#sector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#language"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#meaning"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#organization"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#powerPlant"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#privatelyOwned"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#distributedEnergyResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#sector"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termContent"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#userAtentionFocus"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#context"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorType"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ActorTypeCompany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#distributedEnergyResource"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ActorTypeDER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#context"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ContextDERHousehold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#company"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ContextEnergyCompany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedData"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedDataHouseholdToCompany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedTermGridConnection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedTermNetMetering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedTermStorage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termContent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#Storage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#TermNetGridConnectionDERHousehold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#TermNetMeteringDERHousehold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#TermStorageMeaningDERHousehold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#TermStorageMeaningEnergyCompany"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#actorHasType"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ActorDERHousehold"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ActorTypeDER"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorHasContext"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ActorDERHousehold"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ContextDERHousehold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#contextDefinedByActorType"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ActorDERHousehold"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ContextDERHousehold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasReceiver"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedDataHouseholdToCompany"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ActorEnergyCompany"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasSender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedDataHouseholdToCompany"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ActorDERHousehold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasTerm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedDataHouseholdToCompany"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedTermGridConnection"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasTerm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedDataHouseholdToCompany"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedTermNetMetering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasTerm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedDataHouseholdToCompany"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedTermStorage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasWrittenContent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ExchangedTermStorage"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#TermStorageMeaningDERHousehold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasMeaningByContext"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#TermNetGridConnectionDERHousehold"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ContextDERHousehold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasMeaningByContext"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#TermStorageMeaningDERHousehold"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ContextDERHousehold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasMeaningByContext"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#TermStorageMeaningEnergyCompany"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ContextDERHousehold"/>
+    </ObjectPropertyAssertion>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasTerm"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasWrittenContent"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#actorHasRole"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#actorHasType"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorHasContext"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorHasOrganization"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorHasSector"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#contextDefinedByActorRole"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#context"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#contextDefinedByActorType"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#context"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#contextDefinedBySector"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#context"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#contextUserAttentionFocus"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#context"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasContext"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasLog"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasReceiver"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasSender"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasTerm"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasLanguage"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasMeaningByContext"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasMeaningByLiteralDefinition"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasWrittenContent"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#actorHasRole"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorRole"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#actorHasType"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorHasContext"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#context"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorHasOrganization"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorHasSector"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#energySector"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorHasSector"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#sector"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#contextDefinedByActorRole"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorRole"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#contextDefinedByActorType"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#contextDefinedBySector"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#sector"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#contextUserAttentionFocus"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#userAtentionFocus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasContext"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#context"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasLog"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataLog"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasReceiver"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#Receiver"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasSender"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#Sender"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasTerm"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasLanguage"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#language"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasMeaningByContext"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#byContext"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasMeaningByLiteralDefinition"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasWrittenContent"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termContent"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasSender"/>
+            <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorHasContext"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasContext"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasTerm"/>
+            <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#exchangedDataHasContext"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termHasMeaningByContext"/>
+    </SubObjectPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#termContentString"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termContent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ContextUserAttentionFocusDescription"/>
+        <Class IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#userAtentionFocus"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#termContentString"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#ContextUserAttentionFocusDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#userAtentionFocus</IRI>
+        <Literal>The task being executed is called the user&apos;s focus of attention, indicating what should be considered in the context of that user.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

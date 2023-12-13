@@ -486,14 +486,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/matheus/ontologies/2023/10/oec-extracted#ActorTypeUnknown -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matheus/ontologies/2023/10/oec-extracted#ActorTypeUnknown">
-        <rdf:type rdf:resource="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#actorType"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/matheus/ontologies/2023/10/oec-extracted#ContextDERHousehold -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matheus/ontologies/2023/10/oec-extracted#ContextDERHousehold">
@@ -508,15 +500,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matheus/ontologies/2023/10/oec-extracted#ContextEnergyCompany">
         <rdf:type rdf:resource="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#company"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/matheus/ontologies/2023/10/oec-extracted#ContextUnknown -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matheus/ontologies/2023/10/oec-extracted#ContextUnknown">
-        <rdf:type rdf:resource="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#context"/>
-        <unti:contextDefinedByActorType rdf:resource="http://www.semanticweb.org/matheus/ontologies/2023/10/oec-extracted#ActorTypeUnknown"/>
     </owl:NamedIndividual>
     
 
@@ -564,6 +547,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/matheus/ontologies/2023/10/oec-extracted#Storage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matheus/ontologies/2023/10/oec-extracted#Storage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termContent"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/matheus/ontologies/2023/10/oec-extracted#TermNetGridConnectionDERHousehold -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matheus/ontologies/2023/10/oec-extracted#TermNetGridConnectionDERHousehold">
@@ -587,7 +578,6 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#term"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/matheus/ontologies/2023/10/untitled-ontology-37#termContent"/>
         <unti:termHasMeaningByContext rdf:resource="http://www.semanticweb.org/matheus/ontologies/2023/10/oec-extracted#ContextDERHousehold"/>
-        <termContentString>Batteries or storage systems to store surplus energy for later use.</termContentString>
     </owl:NamedIndividual>
     
 
